@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DottedLineView_Example' do
+  pod 'DottedLineView', :path => '../'
+
+  target 'DottedLineView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

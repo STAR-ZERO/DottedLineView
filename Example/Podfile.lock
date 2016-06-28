@@ -1,0 +1,16 @@
+PODS:
+  - DottedLineView (0.1.0)
+
+DEPENDENCIES:
+  - DottedLineView (from `../`)
+
+EXTERNAL SOURCES:
+  DottedLineView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DottedLineView: e865490783a39fe0048c87326babae1498b84407
+
+PODFILE CHECKSUM: 54202a963c3cd304c10941941f34565f4e7abb3c
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2C99B67C51087525B4B9FEDD562F85 /* Pods-DottedLineView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89205A3FFCD46683224FA424C2184089 /* Pods-DottedLineView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A3A5894EA0217036530CC079EC56A6 /* Pods-DottedLineView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BB70045720051DB5E0DC9E8DC9EB42 /* Pods-DottedLineView_Tests-dummy.m */; };
+		2AFC4BF304A382EDA70590E5860A4D55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3C757ED52FF47ED8146A6592911AC92D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		57245B0B772D99399D93B2A85B1B9E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		789936F3C54E30C534BBB93C168CF005 /* DottedLineView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCDFB41DD4870C1A8FC7B86142A93C8 /* DottedLineView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90A274F8FA7669BFED7A6E0EFCDFF47 /* DottedLineView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8BCD1B301C8A7C377633B49BA389E /* DottedLineView-dummy.m */; };
+		B700C23CBC47578511D5F1C9687AA24A /* Pods-DottedLineView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDB7BCC9F1FEE94AD4CE9E3CD7EADFA /* Pods-DottedLineView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA790B7A1D2255AE0065B1F2 /* DottedLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA790B791D2255AE0065B1F2 /* DottedLineView.swift */; };
+		FD4E25DE1420FF85F133A4B35DA8B121 /* Pods-DottedLineView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407EDBD78C613D7A0C251CCF612E2F68 /* Pods-DottedLineView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB92C111C167930B484FA0F42D25FBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73FC5B6765B423B32E1825DB389F277B;
+			remoteInfo = DottedLineView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E5BCDD68F77C327949A74611331B9E3 /* Pods-DottedLineView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DottedLineView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		108FC7B11506572B91A7BEF624208921 /* DottedLineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DottedLineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA95A1E993436C31B871B3194FF7135 /* DottedLineView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DottedLineView.modulemap; sourceTree = "<group>"; };
+		3208B23FDD6AA95A289E0E78F41208D6 /* Pods-DottedLineView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DottedLineView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		374E4F9CDB0C5618578BA439E3E8228E /* Pods-DottedLineView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DottedLineView_Example-resources.sh"; sourceTree = "<group>"; };
+		4069CCFBF859077F4C45EF802AE26160 /* Pods-DottedLineView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DottedLineView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		407EDBD78C613D7A0C251CCF612E2F68 /* Pods-DottedLineView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DottedLineView_Example-dummy.m"; sourceTree = "<group>"; };
+		41B278C552EF0AF8460DF6EF934398E8 /* Pods-DottedLineView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DottedLineView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D34E89A13D183DAD7011AF474F23EBD /* DottedLineView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DottedLineView.xcconfig; sourceTree = "<group>"; };
+		61AD4A48099009513A42B292E0AC9E26 /* Pods-DottedLineView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DottedLineView_Tests.modulemap"; sourceTree = "<group>"; };
+		62954A885F7D1399E33CBF7596D35A83 /* DottedLineView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DottedLineView-prefix.pch"; sourceTree = "<group>"; };
+		68589C15AC89EEAFDBBA18CE54371A29 /* Pods-DottedLineView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DottedLineView_Example.modulemap"; sourceTree = "<group>"; };
+		6865DCB9D77242DA973FFF21C7896BE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89205A3FFCD46683224FA424C2184089 /* Pods-DottedLineView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DottedLineView_Example-umbrella.h"; sourceTree = "<group>"; };
+		92CC0AA43CDFC0C8011C5BDB6EC6978B /* Pods-DottedLineView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DottedLineView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9817579F673A55F723CB6E70D9E2B572 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983818697270E679FEA0A16F1DE6D73A /* Pods-DottedLineView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DottedLineView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A77BD7C7B599698BAA58BFC1117D417C /* Pods-DottedLineView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DottedLineView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAECF01EF52AB33F04676ACA50EB5335 /* Pods-DottedLineView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DottedLineView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9E720929954A729E147BE24C29BA508 /* Pods-DottedLineView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DottedLineView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA790B791D2255AE0065B1F2 /* DottedLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedLineView.swift; sourceTree = "<group>"; };
+		BE40A824F9A3B7304C29C6129601DA28 /* Pods_DottedLineView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DottedLineView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D98666BA4C909A42D7758BCADEE4B868 /* Pods-DottedLineView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DottedLineView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9BA6D73633A90D8F449FCCB37805D96 /* Pods_DottedLineView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DottedLineView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D8BCD1B301C8A7C377633B49BA389E /* DottedLineView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DottedLineView-dummy.m"; sourceTree = "<group>"; };
+		F7BB70045720051DB5E0DC9E8DC9EB42 /* Pods-DottedLineView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DottedLineView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F96FF01FF9201D90484CB890B9407C02 /* Pods-DottedLineView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DottedLineView_Tests-resources.sh"; sourceTree = "<group>"; };
+		FE5CBB9248C01C6664E66E34A9BB4E70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCDFB41DD4870C1A8FC7B86142A93C8 /* DottedLineView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DottedLineView-umbrella.h"; sourceTree = "<group>"; };
+		FFDB7BCC9F1FEE94AD4CE9E3CD7EADFA /* Pods-DottedLineView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DottedLineView_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A43008A1BC47204B7766F5DC8C06AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C757ED52FF47ED8146A6592911AC92D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DA441E690240F6A6586CF73ACCD749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFC4BF304A382EDA70590E5860A4D55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898884287B44480079CC96C2B3FBD8E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57245B0B772D99399D93B2A85B1B9E00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3EE10C2CBB003788FD3C60466172EF1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BA790B791D2255AE0065B1F2 /* DottedLineView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5A35F396B4929B730CA06F58AE5E7DAD /* DottedLineView */ = {
+			isa = PBXGroup;
+			children = (
+				942A84D56999FE69E3C1AA6E6239EEBB /* DottedLineView */,
+				B83DD899302DE41367C2E1311DC316E9 /* Support Files */,
+			);
+			name = DottedLineView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9F8AFB093C7F6455ACACDBC6427E1E45 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B63035C3E59429E27CCA8791F9AEFA2B /* Products */,
+				9468B83474BC9DCB766002277B68D9DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		942A84D56999FE69E3C1AA6E6239EEBB /* DottedLineView */ = {
+			isa = PBXGroup;
+			children = (
+				3EE10C2CBB003788FD3C60466172EF1D /* Classes */,
+			);
+			path = DottedLineView;
+			sourceTree = "<group>";
+		};
+		9468B83474BC9DCB766002277B68D9DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B74A4847B1B53AEFF2B3E0617C18947E /* Pods-DottedLineView_Example */,
+				C9F809656C988DAF192B22D4C39FDA50 /* Pods-DottedLineView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F8AFB093C7F6455ACACDBC6427E1E45 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A35F396B4929B730CA06F58AE5E7DAD /* DottedLineView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B63035C3E59429E27CCA8791F9AEFA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108FC7B11506572B91A7BEF624208921 /* DottedLineView.framework */,
+				D9BA6D73633A90D8F449FCCB37805D96 /* Pods_DottedLineView_Example.framework */,
+				BE40A824F9A3B7304C29C6129601DA28 /* Pods_DottedLineView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74A4847B1B53AEFF2B3E0617C18947E /* Pods-DottedLineView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6865DCB9D77242DA973FFF21C7896BE7 /* Info.plist */,
+				68589C15AC89EEAFDBBA18CE54371A29 /* Pods-DottedLineView_Example.modulemap */,
+				D98666BA4C909A42D7758BCADEE4B868 /* Pods-DottedLineView_Example-acknowledgements.markdown */,
+				B9E720929954A729E147BE24C29BA508 /* Pods-DottedLineView_Example-acknowledgements.plist */,
+				407EDBD78C613D7A0C251CCF612E2F68 /* Pods-DottedLineView_Example-dummy.m */,
+				0E5BCDD68F77C327949A74611331B9E3 /* Pods-DottedLineView_Example-frameworks.sh */,
+				374E4F9CDB0C5618578BA439E3E8228E /* Pods-DottedLineView_Example-resources.sh */,
+				89205A3FFCD46683224FA424C2184089 /* Pods-DottedLineView_Example-umbrella.h */,
+				92CC0AA43CDFC0C8011C5BDB6EC6978B /* Pods-DottedLineView_Example.debug.xcconfig */,
+				3208B23FDD6AA95A289E0E78F41208D6 /* Pods-DottedLineView_Example.release.xcconfig */,
+			);
+			name = "Pods-DottedLineView_Example";
+			path = "Target Support Files/Pods-DottedLineView_Example";
+			sourceTree = "<group>";
+		};
+		B83DD899302DE41367C2E1311DC316E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA95A1E993436C31B871B3194FF7135 /* DottedLineView.modulemap */,
+				5D34E89A13D183DAD7011AF474F23EBD /* DottedLineView.xcconfig */,
+				F4D8BCD1B301C8A7C377633B49BA389E /* DottedLineView-dummy.m */,
+				62954A885F7D1399E33CBF7596D35A83 /* DottedLineView-prefix.pch */,
+				FFCDFB41DD4870C1A8FC7B86142A93C8 /* DottedLineView-umbrella.h */,
+				9817579F673A55F723CB6E70D9E2B572 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DottedLineView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F809656C988DAF192B22D4C39FDA50 /* Pods-DottedLineView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CBB9248C01C6664E66E34A9BB4E70 /* Info.plist */,
+				61AD4A48099009513A42B292E0AC9E26 /* Pods-DottedLineView_Tests.modulemap */,
+				AAECF01EF52AB33F04676ACA50EB5335 /* Pods-DottedLineView_Tests-acknowledgements.markdown */,
+				983818697270E679FEA0A16F1DE6D73A /* Pods-DottedLineView_Tests-acknowledgements.plist */,
+				F7BB70045720051DB5E0DC9E8DC9EB42 /* Pods-DottedLineView_Tests-dummy.m */,
+				4069CCFBF859077F4C45EF802AE26160 /* Pods-DottedLineView_Tests-frameworks.sh */,
+				F96FF01FF9201D90484CB890B9407C02 /* Pods-DottedLineView_Tests-resources.sh */,
+				FFDB7BCC9F1FEE94AD4CE9E3CD7EADFA /* Pods-DottedLineView_Tests-umbrella.h */,
+				A77BD7C7B599698BAA58BFC1117D417C /* Pods-DottedLineView_Tests.debug.xcconfig */,
+				41B278C552EF0AF8460DF6EF934398E8 /* Pods-DottedLineView_Tests.release.xcconfig */,
+			);
+			name = "Pods-DottedLineView_Tests";
+			path = "Target Support Files/Pods-DottedLineView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64D4683049E65F9D10D06738609D8988 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B700C23CBC47578511D5F1C9687AA24A /* Pods-DottedLineView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBF23A9781E0DA1C8600807EE3F3CF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789936F3C54E30C534BBB93C168CF005 /* DottedLineView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E5E693F73AE13384F6CEC0F76BCABE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2C99B67C51087525B4B9FEDD562F85 /* Pods-DottedLineView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0853E2E786636C13A089266775DA3CF0 /* Pods-DottedLineView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159B2768FBFF041AC0FEA0101E1F06B4 /* Build configuration list for PBXNativeTarget "Pods-DottedLineView_Tests" */;
+			buildPhases = (
+				268B7D49F7C9FC94152FC5BD9AE48B82 /* Sources */,
+				898884287B44480079CC96C2B3FBD8E8 /* Frameworks */,
+				64D4683049E65F9D10D06738609D8988 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DottedLineView_Tests";
+			productName = "Pods-DottedLineView_Tests";
+			productReference = BE40A824F9A3B7304C29C6129601DA28 /* Pods_DottedLineView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73FC5B6765B423B32E1825DB389F277B /* DottedLineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F197677694B9D72CD294723A5817BE /* Build configuration list for PBXNativeTarget "DottedLineView" */;
+			buildPhases = (
+				E895D85D983512CFFE5C4CABD4321C63 /* Sources */,
+				63DA441E690240F6A6586CF73ACCD749 /* Frameworks */,
+				7CBF23A9781E0DA1C8600807EE3F3CF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DottedLineView;
+			productName = DottedLineView;
+			productReference = 108FC7B11506572B91A7BEF624208921 /* DottedLineView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C70C8D1528549731A94E8B5E76DEDC8D /* Pods-DottedLineView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0765DCAEA95E22E50246B2AA4317B46 /* Build configuration list for PBXNativeTarget "Pods-DottedLineView_Example" */;
+			buildPhases = (
+				544011481A39607DFE7B20ED3C727E3E /* Sources */,
+				0A43008A1BC47204B7766F5DC8C06AB8 /* Frameworks */,
+				C2E5E693F73AE13384F6CEC0F76BCABE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5A3B5EF0B0280300C55122DEFD6902 /* PBXTargetDependency */,
+			);
+			name = "Pods-DottedLineView_Example";
+			productName = "Pods-DottedLineView_Example";
+			productReference = D9BA6D73633A90D8F449FCCB37805D96 /* Pods_DottedLineView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B63035C3E59429E27CCA8791F9AEFA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73FC5B6765B423B32E1825DB389F277B /* DottedLineView */,
+				C70C8D1528549731A94E8B5E76DEDC8D /* Pods-DottedLineView_Example */,
+				0853E2E786636C13A089266775DA3CF0 /* Pods-DottedLineView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268B7D49F7C9FC94152FC5BD9AE48B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A3A5894EA0217036530CC079EC56A6 /* Pods-DottedLineView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544011481A39607DFE7B20ED3C727E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E25DE1420FF85F133A4B35DA8B121 /* Pods-DottedLineView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E895D85D983512CFFE5C4CABD4321C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA790B7A1D2255AE0065B1F2 /* DottedLineView.swift in Sources */,
+				A90A274F8FA7669BFED7A6E0EFCDFF47 /* DottedLineView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D5A3B5EF0B0280300C55122DEFD6902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DottedLineView;
+			target = 73FC5B6765B423B32E1825DB389F277B /* DottedLineView */;
+			targetProxy = DB92C111C167930B484FA0F42D25FBC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14391D85E2507B6895199443C1B49816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CC0AA43CDFC0C8011C5BDB6EC6978B /* Pods-DottedLineView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DottedLineView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DottedLineView_Example/Pods-DottedLineView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DottedLineView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46115F8E404663E780EFC783C371C70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B278C552EF0AF8460DF6EF934398E8 /* Pods-DottedLineView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DottedLineView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DottedLineView_Tests/Pods-DottedLineView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DottedLineView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56584D73A893F2FB34C1FD972DA6C4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77BD7C7B599698BAA58BFC1117D417C /* Pods-DottedLineView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DottedLineView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DottedLineView_Tests/Pods-DottedLineView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DottedLineView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67317A64B366269EAE9B1AD286475891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D34E89A13D183DAD7011AF474F23EBD /* DottedLineView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DottedLineView/DottedLineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DottedLineView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DottedLineView/DottedLineView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DottedLineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69F22682D466CF03FBEA15B588DD53CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3208B23FDD6AA95A289E0E78F41208D6 /* Pods-DottedLineView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DottedLineView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DottedLineView_Example/Pods-DottedLineView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DottedLineView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C12B996B23B66BEA9061FB015C33C6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D34E89A13D183DAD7011AF474F23EBD /* DottedLineView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DottedLineView/DottedLineView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DottedLineView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DottedLineView/DottedLineView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DottedLineView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F197677694B9D72CD294723A5817BE /* Build configuration list for PBXNativeTarget "DottedLineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12B996B23B66BEA9061FB015C33C6BC /* Debug */,
+				67317A64B366269EAE9B1AD286475891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		159B2768FBFF041AC0FEA0101E1F06B4 /* Build configuration list for PBXNativeTarget "Pods-DottedLineView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56584D73A893F2FB34C1FD972DA6C4E4 /* Debug */,
+				46115F8E404663E780EFC783C371C70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0765DCAEA95E22E50246B2AA4317B46 /* Build configuration list for PBXNativeTarget "Pods-DottedLineView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14391D85E2507B6895199443C1B49816 /* Debug */,
+				69F22682D466CF03FBEA15B588DD53CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

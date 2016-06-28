@@ -1,0 +1,6 @@
+framework module Pods_DottedLineView_Example {
+  umbrella header "Pods-DottedLineView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
