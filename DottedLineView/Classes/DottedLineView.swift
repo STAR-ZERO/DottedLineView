@@ -16,7 +16,13 @@ public class DottedLineView: UIView {
     
     @IBInspectable
     public var lineWidth: CGFloat = CGFloat(4)
-    
+
+    @IBInspectable
+    public var dashStroke: CGFloat = CGFloat(4)
+
+    @IBInspectable
+    public var dashSkip: CGFloat = CGFloat(4)
+
     @IBInspectable
     public var round: Bool = false
     
@@ -77,7 +83,7 @@ public class DottedLineView: UIView {
             path.addLine(to: CGPoint(x: center, y: drawHeight))
         }
         
-        let dashes: [CGFloat] = [lineWidth, lineWidth]
+        let dashes: [CGFloat] = [dashStroke, dashSkip]
         path.setLineDash(dashes, count: dashes.count, phase: 0)
         path.lineCapStyle = CGLineCap.butt
     }
